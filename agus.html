@@ -1,0 +1,254 @@
+<DOCTYPE html>
+
+
+<heUTF-8">
+  <!DOCTYPE  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agus Laundry - Solusi Laundry Modern</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="precad>
+
+    <meta charset="onnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f8ff; /* Warna dasar biru muda */
+            color: #1e3a8a; /* Warna teks biru tua */
+        }
+        .header-bg {
+            background-image: url('https://placehold.co/1920x400/87CEEB/ffffff?text=Selamat+Datang');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .bubble-animation-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+        }
+        .bubble {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+            animation: float-up linear infinite;
+        }
+        @keyframes float-up {
+            from {
+                transform: translateY(100vh);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(-10vh);
+                opacity: 1;
+            }
+        }
+        
+          
+
+        
+    </style>
+</head>
+<body class="bg-blue-50 text-blue-900">
+
+    <!-- Bubble Animation Container -->
+    <div class="bubble-animation-container"></div>
+
+    <!-- Header Section -->
+    <header class="relative bg-blue-400 py-12 px-4 md:px-8 text-center text-white header-bg overflow-hidden">
+        <div class="absolute inset-0 bg-blue-600 opacity-70"></div>
+        <div class="relative z-10 flex flex-col items-center justify-center">
+           
+            <div class="logo">
+                <h1 class="text-4xl md:text-6xl font-extrabold mb-2 leading-tight">Agus Laundry</h1>
+
+            </div>
+            
+            <p class="text-xl md:text-2xl font-semibold italic">Hemat, Mudah, Berkualitas</p>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="container mx-auto py-12 px-4 md:px-8">
+        
+        <!-- About Section -->
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-6 md:p-10">
+                <h2 class="text-3xl font-bold mb-4 text-center">Tentang Kami</h2>
+                <div class="flex flex-col md:flex-row items-center md:space-x-8">
+                    <img src="\images\Agus Laundry.jpeg" alt="Agus Laundry" widht="400" height="300" class="w-full md:w-1/2 rounded-lg shadow-md mb-6 md:mb-0">
+                    <div class="w-full md:w-1/2">
+                        <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                            Agus Laundry adalah solusi laundry modern untuk kebutuhan rumah tangga dan bisnis. Kami menggunakan peralatan canggih dan deterjen berkualitas tinggi untuk memastikan pakaian Anda bersih, segar, dan terawat. Layanan kami cepat, efisien, dan ramah lingkungan.
+                        </p>
+                        <p class="text-lg text-gray-700 leading-relaxed">
+                            Kami berkomitmen untuk memberikan pengalaman terbaik bagi setiap pelanggan. Dengan layanan antar-jemput yang praktis, kami siap membantu Anda menghemat waktu dan tenaga. Percayakan cucian Anda kepada kami, dan rasakan perbedaannya!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-6 md:p-10">
+                <h2 class="text-3xl font-bold mb-4 text-center">Layanan Kami</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Layanan 1 -->
+                    <div class="bg-blue-100 rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-xl">
+                        <svg class="w-16 h-16 mx-auto mb-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M12 2a2 2 0 012 2v1h-4V4a2 2 0 012-2zm0 14V8a2 2 0 00-2-2H8a2 2 0 00-2 2v8a2 2 0 002 2h4a2 2 0 002-2zM4 6a2 2 0 012-2h4V3a1 1 0 00-1-1H7a3 3 0 00-3 3v13a1 1 0 001 1h4a1 1 0 001-1v-2H6a2 2 0 01-2-2V6zM16 6a2 2 0 00-2-2h-4v1a1 1 0 001 1h3v13a1 1 0 001 1h4a1 1 0 001-1V7a1 1 0 00-1-1z" clip-rule="evenodd" fill-rule="evenodd"></path>
+                        </svg>
+                        <h3 class="text-xl font-semibold mb-2">Cuci Setrika</h3>
+                        <p class="text-gray-700">Pakaian bersih dan wangi dalam hitungan jam. Cocok untuk kebutuhan sehari-hari.</p>
+                    </div>
+                    <!-- Layanan 2 -->
+                    <div class="bg-blue-100 rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-xl">
+                        <svg class="w-16 h-16 mx-auto mb-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 12a2 2 0 100-4 2 2 0 000 4zm7-4a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h12a1 1 0 001-1V8zm-2 2v6h-3V10a2 2 0 00-4 0v6H5V10h-2a2 2 0 00-2 2v8a2 2 0 002 2h16a2 2 0 002-2v-8a2 2 0 00-2-2z"></path>
+                        </svg>
+                        <h3 class="text-xl font-semibold mb-2">Cuci Karpet/Selimut</h3>
+                        <p class="text-gray-700">Layanan cuci Selimut dan karpet dengan hasil bersih maksimal, wangi tahan lama, serta aman untuk kesehatan keluarga.</p>
+                    </div>
+                    <!-- Layanan 3 -->
+                    <div class="bg-blue-100 rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-xl">
+                        <svg class="w-16 h-16 mx-auto mb-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M14 8h-4v4h4V8zM5 8h-2v4h2V8zM18 8h-2v4h2V8z"></path>
+                            <path fill-rule="evenodd" d="M10 2a8 8 0 100 16 8 8 0 000-16zM2 10a8 8 0 1116 0A8 8 0 012 10zm11 2a1 1 0 100-2 1 1 0 000 2zM7 12a1 1 0 100-2 1 1 0 000 2zm10-2a1 1 0 10-2 0 1 1 0 002 0z" clip-rule="evenodd"></path>
+                        </svg>
+                        <h3 class="text-xl font-semibold mb-2">Antar & Jemput</h3>
+                        <p class="text-gray-700">Layanan gratis antar dan jemput untuk area tertentu. Hubungi kami untuk info lebih lanjut.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Price List Section -->
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-6 md:p-10">
+                <h2 class="text-3xl font-bold mb-4 text-center">Daftar Harga</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Harga 1 -->
+                    <div class="bg-green-100 rounded-lg p-6 text-center hover:shadow-lg">
+                        <h4 class="text-2xl font-bold mb-2">Cuci Setrika</h4>
+                        <p class="mt-2 text-sm text-gray-600">Mulai dari
+                        <p class="text-4xl font-extrabold text-green-600">Rp 10.000<span class="text-lg font-normal">/kg</span></p>
+                        <p class="mt-2 text-sm text-gray-600">Pakaian rapi, percaya diri tinggi.</p>
+                    </div>
+                    <!-- Harga 2 -->
+                    <div class="bg-green-100 rounded-lg p-6 text-center hover:shadow-lg">
+                        <h4 class="text-2xl font-bold mb-2">Cuci Karpet</h4>
+                        <p class="mt-2 text-sm text-gray-600">Mulai dari
+                        <p class="text-4xl font-extrabold text-green-600">Rp 35.000<span class="text-lg font-normal">/m2</span></p>
+                        <p class="mt-2 text-sm text-gray-600">Karpet bersih, bebas debu.</p>
+                    </div>
+                    <!-- Harga 3 -->
+                    <div class="bg-green-100 rounded-lg p-6 text-center hover:shadow-lg">
+                        <h4 class="text-2xl font-bold mb-2">Cuci Selimut</h4>
+                        <p class="mt-2 text-sm text-gray-600">Mulai dari
+                        <p class="text-4xl font-extrabold text-green-600">Rp 20.000<span class="text-lg font-normal">/kg</span></p>
+                        <p class="mt-2 text-sm text-gray-600">Bersih maksimal, nyaman total.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section>
+            <div class="bg-white rounded-xl shadow-lg p-6 md:p-10 text-center">
+                <h2 class="text-3xl font-bold mb-4">Hubungi Kami</h2>
+                <p class="text-lg text-gray-700 mb-6">Siap untuk pakaian bersih dan wangi? Hubungi kami sekarang!</p>
+                <a href="https://wa.me/+6285772899848" target="_blank" class="inline-block bg-green-500 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:scale-110 hover:bg-green-600">
+                    <svg class="w-5 h-5 inline-block mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M17.41 2.59A8 8 0 0010 2a8 8 0 00-7.41 5.41l.1.1.28.28A6 6 0 005 10a6 6 0 006-6h1V3a1 1 0 011-1h2a1 1 0 011 1v1h1a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1V5a1 1 0 00-1-1h-1a6 6 0 00-5.41 7.41l.1.1.28.28A4 4 0 0010 14a4 4 0 004-4h2a6 6 0 01-6 6 6 6 0 01-6-6 6 6 0 016-6zM10 16a6 6 0 100-12 6 6 0 000 12z"></path>
+                    </svg>
+                    085772899848 (Agus)
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white text-center py-12 px-4 rounded-t-x1">
+        <p> Jl. Cipinang Besar Selatan Rt 007/Rw 006, Jatinegara, Jakarta Timur</p>
+        <p>&copy; 2025 Agus Laundry. Semua hak dilindungi.</p>
+
+        
+        <!-- Company Profile Section -->
+    <section class="bg-white py-12 px-6 md:px-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-6xl font-bold mb-6 text-blue-800">Company Profile</h2>
+            <p class="text-lg text-gray-700 max-w-3xl mx-auto mb-10">
+                <strong>Agus Laundry</strong> berdiri sejak tahun 2025 dan telah melayani ratusan pelanggan di wilayah Jakarta Timur dan sekitarnya. 
+                Kami hadir dengan semangat memberikan layanan laundry yang cepat, bersih, dan ramah lingkungan dengan teknologi modern 
+                serta tenaga kerja profesional.
+            </p>
+
+            <!-- Grid Layout for Vision, Mission, and Values -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Visi -->
+                <div class="bg-blue-100 rounded-xl shadow-md p-6 hover:shadow-xl transition-transform transform hover:scale-105">
+                    <h3 class="text-2xl font-semibold mb-3 text-blue-700">Visi</h3>
+                    <p class="text-gray-700">
+                        Menjadi layanan laundry terpercaya yang mengutamakan kualitas, kenyamanan, dan kepuasan pelanggan di seluruh Indonesia.
+                    </p>
+                </div>
+
+                <!-- Misi -->
+                <div class="bg-blue-100 rounded-xl shadow-md p-6 hover:shadow-xl transition-transform transform hover:scale-105">
+                    <h3 class="text-2xl font-semibold mb-3 text-blue-700">Misi</h3>
+                    <ul class="text-gray-700 text-left list-disc list-inside space-y-2">
+                        <li>Menyediakan layanan laundry cepat dan efisien.</li>
+                        <li>Menggunakan bahan ramah lingkungan dan berkualitas tinggi.</li>
+                        <li>Meningkatkan profesionalisme tim dan pelayanan pelanggan.</li>
+                        <li>Memberikan pengalaman terbaik dengan harga terjangkau.</li>
+                    </ul>
+                </div>
+
+                <!-- Nilai Perusahaan -->
+                <div class="bg-blue-100 rounded-xl shadow-md p-6 hover:shadow-xl transition-transform transform hover:scale-105">
+                    <h3 class="text-2xl font-semibold mb-3 text-blue-700">Pendiri Agus Laundry</h3>
+                    <ul class="text-gray-700 text-left list-disc list-inside space-y-2">
+                        <li><strong>Dimas Affan Nabil :</strong> Sebagai CEO Agus Laundry.</li>
+                        <li><strong>Risky Agus Ramadani:</strong> Sebagai Manager Agus Laundry.</li>
+                        <li><strong>Muhammad Rafa Alfiansyah:</strong> Sebagai Admin Agus Laundry.</li>
+                </div>
+            </div>
+
+            <!-- Contact Button -->
+            <div class="mt-10">
+                <a href="mailto:aguslaundry@gmail.com" class="bg-blue-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 transition-transform transform hover:scale-110">
+                    Hubungi Kami via Whatsaap
+                </a>
+            </div>
+        </div>
+    </section>
+        
+    </footer>
+
+    <script>
+        // JavaScript for the bubble animation
+        const container = document.querySelector('.bubble-animation-container');
+        function createBubble() {
+            const bubble = document.createElement('div');
+            bubble.classList.add('bubble');
+            const size = Math.random() * 60 + 20; // Ukuran gelembung
+            bubble.style.width = `${size}px`;
+            bubble.style.height = `${size}px`;
+            bubble.style.left = `${Math.random() * 100}%`;
+            bubble.style.animationDuration = `${Math.random() * 5 + 5}s`; // Durasi animasi
+            container.appendChild(bubble);
+            setTimeout(() => {
+                bubble.remove();
+            }, 10000); // Hapus gelembung setelah selesai animasi
+        }
+        setInterval(createBubble, 500); // Buat gelembung setiap 0.1 detik
+    </script>
+</body>
+</html>
